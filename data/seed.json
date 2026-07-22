@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "project": "Chakravyuh - AI War-Room for India Energy Resilience",
+    "verified_date": "2026-07-20",
+    "source_attribution": "Ministry of Petroleum, ISPRL, PPAC, S&P Global, EIA, GDELT, AISstream, IMF PortWatch",
+    "ppac_verified": true,
+    "last_ppac_sync": "2026-07-21"
+  },
+  "country_baseline": {
+    "name": "India",
+    "crude_import_dependency_pct": 88.0,
+    "spr_capacity_mmt": 5.33,
+    "spr_cover_full_days": 9.5,
+    "spr_cover_typical_days": 6.5,
+    "omc_commercial_stock_days": 64.5,
+    "total_buffer_days": 74.0,
+    "buffer_range_days": [
+      74,
+      80
+    ],
+    "diversified_source_countries": 41,
+    "last_updated": "2026-07-17",
+    "source": "Petroleum Ministry / ISPRL / S&P Global (June-July 2026)"
+  },
+  "spr_sites": [
+    {
+      "id": "spr_vskp",
+      "name": "Visakhapatnam SPR",
+      "state": "Andhra Pradesh",
+      "capacity_mmt": 1.33,
+      "capacity_million_barrels": 9.75,
+      "current_fill_pct": 68.0,
+      "coordinates": [
+        83.2185,
+        17.6868
+      ],
+      "status": "Operational",
+      "source": "ISPRL / MoPNG 2026"
+    },
+    {
+      "id": "spr_mglr",
+      "name": "Mangaluru SPR",
+      "state": "Karnataka",
+      "capacity_mmt": 1.5,
+      "capacity_million_barrels": 11.0,
+      "current_fill_pct": 64.0,
+      "coordinates": [
+        74.856,
+        12.9141
+      ],
+      "status": "Operational",
+      "source": "ISPRL / MoPNG 2026"
+    },
+    {
+      "id": "spr_pdr",
+      "name": "Padur SPR",
+      "state": "Karnataka",
+      "capacity_mmt": 2.5,
+      "capacity_million_barrels": 18.33,
+      "current_fill_pct": 60.0,
+      "coordinates": [
+        74.7833,
+        13.2333
+      ],
+      "status": "Operational",
+      "source": "ISPRL / MoPNG 2026"
+    }
+  ],
+  "refineries": [
+    {
+      "id": "ref_jamnagar",
+      "name": "Jamnagar Refinery Complex (Reliance)",
+      "capacity_mmtpa": 68.2,
+      "coordinates": [
+        69.8322,
+        22.385
+      ],
+      "port": "Sikka / Vadinar",
+      "hormuz_dependency_pct": 52.0,
+      "hormuz_dependency_pct_source": "estimated - modeled share of this refinery's crude sourced via the Persian Gulf/Strait of Hormuz, informed by its west-coast port geography and known Gulf-heavy crude slate; not an officially disclosed sourcing-mix figure",
+      "tier": "Tier-1 Strategic",
+      "source_attribution": "PPAC Ready Reckoner FY2022-23, Table 4.1 (Installed capacity, MMTPA, as of 01.04.2023)"
+    },
+    {
+      "id": "ref_vadinar",
+      "name": "Vadinar Refinery (Nayara Energy)",
+      "capacity_mmtpa": 20.0,
+      "coordinates": [
+        69.718,
+        22.458
+      ],
+      "port": "Vadinar Terminal",
+      "hormuz_dependency_pct": 55.0,
+      "hormuz_dependency_pct_source": "estimated - modeled share of this refinery's crude sourced via the Persian Gulf/Strait of Hormuz; not an officially disclosed sourcing-mix figure",
+      "tier": "Tier-1 Strategic",
+      "source_attribution": "PPAC Ready Reckoner FY2022-23, Table 4.1 (Installed capacity, MMTPA, as of 01.04.2023)"
+    },
+    {
+      "id": "ref_mangaluru",
+      "name": "Mangalore Refinery (MRPL)",
+      "capacity_mmtpa": 15.0,
+      "coordinates": [
+        74.83,
+        12.98
+      ],
+      "port": "New Mangalore Port",
+      "hormuz_dependency_pct": 48.0,
+      "hormuz_dependency_pct_source": "estimated - modeled share of this refinery's crude sourced via the Persian Gulf/Strait of Hormuz; not an officially disclosed sourcing-mix figure",
+      "tier": "Tier-1 Strategic",
+      "source_attribution": "PPAC Ready Reckoner FY2022-23, Table 4.1 (Installed capacity, MMTPA, as of 01.04.2023)"
+    },
+    {
+      "id": "ref_kochi",
+      "name": "Kochi Refinery (BPCL)",
+      "capacity_mmtpa": 15.5,
+      "coordinates": [
+        76.35,
+        9.96
+      ],
+      "port": "Cochin Port",
+      "hormuz_dependency_pct": 45.0,
+      "hormuz_dependency_pct_source": "estimated - modeled share of this refinery's crude sourced via the Persian Gulf/Strait of Hormuz; not an officially disclosed sourcing-mix figure",
+      "tier": "Tier-1 Strategic",
+      "source_attribution": "PPAC Ready Reckoner FY2022-23, Table 4.1 (Installed capacity, MMTPA, as of 01.04.2023)"
+    },
+    {
+      "id": "ref_mumbai",
+      "name": "Mumbai Refinery (BPCL & HPCL)",
+      "capacity_mmtpa": 21.5,
+      "coordinates": [
+        72.89,
+        19.01
+      ],
+      "port": "Mumbai Port / JNPT",
+      "hormuz_dependency_pct": 42.0,
+      "hormuz_dependency_pct_source": "estimated - modeled share of this refinery's crude sourced via the Persian Gulf/Strait of Hormuz; not an officially disclosed sourcing-mix figure",
+      "tier": "Tier-1 Strategic",
+      "source_attribution": "PPAC Ready Reckoner FY2022-23, Table 4.1 (Installed capacity, MMTPA, as of 01.04.2023)"
+    },
+    {
+      "id": "ref_paradip",
+      "name": "Paradip Refinery (IOCL)",
+      "capacity_mmtpa": 15.0,
+      "coordinates": [
+        86.6,
+        20.27
+      ],
+      "port": "Paradip Port",
+      "hormuz_dependency_pct": 35.0,
+      "hormuz_dependency_pct_source": "estimated - modeled share of this refinery's crude sourced via the Persian Gulf/Strait of Hormuz, informed by its east-coast port geography (more accessible to non-Gulf/West African crude); not an officially disclosed sourcing-mix figure",
+      "tier": "Tier-2 East Coast",
+      "source_attribution": "PPAC Ready Reckoner FY2022-23, Table 4.1 (Installed capacity, MMTPA, as of 01.04.2023)"
+    },
+    {
+      "id": "ref_vskp",
+      "name": "Visakhapatnam Refinery (HPCL)",
+      "capacity_mmtpa": 15.0,
+      "coordinates": [
+        83.27,
+        17.69
+      ],
+      "port": "Visakhapatnam Port",
+      "hormuz_dependency_pct": 30.0,
+      "hormuz_dependency_pct_source": "estimated - modeled share of this refinery's crude sourced via the Persian Gulf/Strait of Hormuz, informed by its east-coast port geography (more accessible to non-Gulf/West African crude); not an officially disclosed sourcing-mix figure",
+      "tier": "Tier-2 East Coast",
+      "source_attribution": "Verified via HPCL LC-Max Residue Upgradation Facility commissioning, 5 Jan 2026 (raised capacity from 11.0 to 15.0 MMTPA); PPAC Ready Reckoner FY2022-23 Table 4.1 still shows the pre-upgrade 11.0 MMTPA snapshot as of 01.04.2023"
+    }
+  ],
+  "chokepoints": [
+    {
+      "id": "chk_hormuz",
+      "name": "Strait of Hormuz",
+      "coordinates": [
+        56.25,
+        26.6
+      ],
+      "status": "CONTESTED",
+      "status_detail": "Fresh US strikes on Iran (11-14 Jul); Iran claims renewed closure and vessel strikes, but US CENTCOM disputes that transit is fully halted - status is genuinely contested between the two sides' public claims. Commercial transit ~11% of pre-crisis baseline per the most recent published tracker day.",
+      "normal_daily_tankers": 88,
+      "current_daily_tankers": 10,
+      "risk_level": "CRITICAL",
+      "source": "IMF PortWatch, via CNBC (2026-07-13): ~10 vessels/day vs ~88/day baseline, for PortWatch's most recently published day (12 Jul 2026) as of this 2026-07-20 verification pass - a multi-day reporting lag is normal for this tracker, so this is the freshest confirmed transit count, not a stale figure"
+    },
+    {
+      "id": "chk_babalmandeb",
+      "name": "Bab-el-Mandeb",
+      "coordinates": [
+        43.33,
+        12.6
+      ],
+      "status": "ELEVATED_RISK",
+      "status_detail": "Red Sea rerouting active via Cape of Good Hope",
+      "normal_daily_tankers": 45,
+      "current_daily_tankers": 22,
+      "risk_level": "HIGH",
+      "source": "estimated - real-world 2026 reporting on Bab-el-Mandeb/Red Sea traffic is inconsistent (some trackers show a rebound toward normal levels post the Oct-2025 Israel-Gaza ceasefire, others still show daily transits well below the pre-2024 baseline), so this project models a mid-range ~50%-of-normal disruption rather than asserting a single verified live figure"
+    },
+    {
+      "id": "chk_cape",
+      "name": "Cape of Good Hope",
+      "coordinates": [
+        18.4739,
+        -34.3568
+      ],
+      "status": "ACTIVE_REROUTE",
+      "status_detail": "Alternate maritime transit route; adds 10-14 days transit delay to India",
+      "extra_transit_days": 12,
+      "risk_level": "LOW",
+      "source": "modeled - extra_transit_days reflects the well-documented ~10-14 day sailing-distance penalty of the Cape of Good Hope route vs. Hormuz/Suez for India-bound cargo; this chokepoint has no capacity constraint of its own (it is a reroute destination, not a blockaded strait)"
+    }
+  ],
+  "timeline_anchors": [
+    {
+      "date": "2026-02-28",
+      "title": "Conflict Outbreak & IRGC Maritime Warnings",
+      "description": "US/Israeli strikes on Iran launch. IRGC begins boarding merchant vessels off Hormuz.",
+      "severity": "CRITICAL"
+    },
+    {
+      "date": "2026-03-02",
+      "title": "Formal Closure Declaration",
+      "description": "IRGC declares Strait of Hormuz closed to commercial traffic. Major global shipping lines suspend passage.",
+      "severity": "CRITICAL"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Temporary De-escalation Accord",
+      "description": "US-Iran memorandum signed; temporary surge in transit volumes.",
+      "severity": "MODERATE"
+    },
+    {
+      "date": "2026-07-11",
+      "title": "Fresh Escalation in Strait",
+      "description": "IRGC strike hits container vessel; Iran redeclares transit restriction. US strikes continue.",
+      "severity": "CRITICAL"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Live Status: Contested Waterway",
+      "description": "Strait remains contested: IMF PortWatch's most recently published day (12 Jul) shows ~10 transits/day vs an ~88/day baseline (~11% of normal). Iran claims further vessel strikes and reasserts closure; US CENTCOM disputes that transit is fully halted. India maintains ~74-80 days total reserve buffer.",
+      "severity": "HIGH"
+    }
+  ],
+  "prices_baseline": {
+    "as_of": "2026-07-21",
+    "brent_usd_bbl": 81.62,
+    "brent_usd_bbl_source": "EIA Open Data v2 (series RBRTE), fetched live 2026-07-21; EIA daily series lags ~5-6 business days (period 2026-07-13)",
+    "brent_peak_usd_bbl": 126.0,
+    "brent_peak_date": "2026-03-08",
+    "brent_trough_usd_bbl_approx": 70.0,
+    "brent_trough_date_approx": "2026-07-01",
+    "brent_volatility_note": "Largest monthly oil-price jump on record (Mar 2026); whipsawed from $126 peak to sub-$70 trough within four months as de-escalation/re-escalation cycles repeated. Volatility, not a fixed level, is the live risk.",
+    "wti_usd_bbl": 79.2,
+    "wti_usd_bbl_source": "EIA Open Data v2 (series RWTC), fetched live 2026-07-21 (period 2026-07-13)",
+    "india_petrol_inr_l": {
+      "delhi": 102.12,
+      "mumbai": 111.21,
+      "chennai": 107.76,
+      "kolkata": 113.51
+    },
+    "india_diesel_inr_l": {
+      "delhi": 95.20,
+      "mumbai": 97.83,
+      "chennai": 99.55,
+      "kolkata": 99.82
+    },
+    "india_retail_source": "Dated Tier B fallback snapshot only (used if the live scrape fails) — PPAC-published daily retail selling prices as reported by goodreturns.in, verified 2026-07-21. No free/key-free official JSON API exists for Indian pump rates (IOCL/BPCL/HPCL sites are HTML-only; RapidAPI's daily-fuel-prices-in-india listing needs a paid key). ingest/index.js's pollIndiaRetailPrices() scrapes goodreturns.in's server-rendered HTML tables live every 5 min and upgrades the runtime tier to Tier A when it succeeds; this seed value is only the fallback baseline."
+  }
+}
